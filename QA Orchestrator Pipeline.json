@@ -494,9 +494,9 @@
       "parameters": {
         "modelId": {
           "__rl": true,
-          "value": "gpt-4o",
+          "value": "Qwen/Qwen3-30B-A3B-Instruct-2507",
           "mode": "list",
-          "cachedResultName": "GPT-4O"
+          "cachedResultName": "QWEN/QWEN3-30B-A3B-INSTRUCT-2507"
         },
         "messages": {
           "values": [
@@ -526,8 +526,8 @@
       "waitBetweenTries": 5000,
       "credentials": {
         "openAiApi": {
-          "id": "HKiulmftJDeHMu9u",
-          "name": "OpenAI account 3"
+          "id": "u2vYpnfP0BOg2C1l",
+          "name": "Nebius API"
         }
       },
       "onError": "continueErrorOutput"
@@ -539,7 +539,7 @@
             {
               "id": "automation-output",
               "name": "automation_output",
-              "value": "={{ $json.message?.content || 'Automation agent failed to produce output' }}",
+              "value": "={{ $json.message.content || 'Automation agent failed to produce output' }}",
               "type": "string"
             },
             {
@@ -1540,7 +1540,7 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "0d63e4d0-6afa-4b68-a0d7-b9b3a0910527",
+  "versionId": "c136dc2c-8712-4ba8-9873-16e27435cb67",
   "meta": {
     "instanceId": "bef93948836abcc166162fad0fc847baa9c3b57328e6e2e3730181e1c47525bd"
   },
